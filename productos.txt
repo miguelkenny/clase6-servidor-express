@@ -1,0 +1,18 @@
+[
+    {
+    "title":"Lejía Con Detergente Bona Casa",
+    "price":1200,
+    "thumbnail":"https://sacooperativadelcamp.com/9918-large_default/lejia-con-detergente-bonacasa-2l.jpg",
+    "id":1
+    },
+    {"title":"Vanish Oxi Action",
+    "price":3200,
+    "thumbnail":"https://imagenes.elpais.com/resizer/_9puKAIOV3cAnyz2P8J4LAnhgnk=/1960x0/cloudfront-eu-central-1.images.arcpublishing.com/prisa/QQZLZ4EQQJBQNG5KOFW6XU6XPU.jpg",
+    "id":2
+    },
+    {"title":"Clorox Quitamanchas x 1Lt.",
+    "price":2200,
+    "thumbnail":"https://s.cornershopapp.com/product-images/859744.jpg?versionId=0VA..AypLO8yt.gOo39crh.y.mY9CKNv",
+    "id":3
+    }
+]
