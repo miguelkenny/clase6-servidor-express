@@ -9,9 +9,13 @@ const contenedor = new Contenedor.Contenedor(archivo);
 
 async function ejecutar(){
 
-    let productos = await contenedor.getAll();
-    app.get('/productos', (req,res) => {
-        res.send(productos)
+    app.get('/', (req,res) => {
+        res.send('<h1 style="color:red">Desafío Clase 6</h1>')
+    });
+
+    let productos = await contenedor.getAll();   
+    app.get('/productos', (req,res) => { 
+        res.send(productos);
     });
 
     let productoRandom = await contenedor.getById(Math.floor((Math.random(productos.length) * (1 + 1)) + 1));
